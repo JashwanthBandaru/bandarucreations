@@ -1,0 +1,23 @@
+body{
+    background: url(../images/b_ground.jpg) repeat center center fixed;
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* background-size: cover; */
+    /* -o-background-size: cover; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif,Helvetica,Arial;
+    font-size: xx-large;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 2px 2px 20px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
