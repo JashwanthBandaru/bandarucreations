@@ -1,23 +1,37 @@
+
 body{
-    background: url(../images/b_ground.jpg) repeat center center fixed;
-    /* -webkit-background-size: cover; */
-    /* -moz-background-size: cover; */
-    /* background-size: cover; */
-    /* -o-background-size: cover; */
+    background: url(../images/b_ground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.heading{
     text-transform: uppercase;
-    font-family: "Montserrat",sans-serif,Helvetica,Arial;
-    font-size: xx-large;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    font-size: 11mm;
     letter-spacing: 1px;
     text-align: center;
-    text-shadow: 2px 2px 20px rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color:black;
+    background-color: white;
+    width:100%;
 }
+
+
+.heading:hover{
+    text-shadow: 4px 4px 8px white;
+    background-color:transparent;
+    
+}
+
+.logoimage{
+    width: 38px;
+    height: 38px;
+    margin-bottom: 6px;
+    border: 2.25px solid black;
+}
+
+
 
