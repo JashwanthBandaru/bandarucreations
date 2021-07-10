@@ -19,7 +19,6 @@ body{
     width:100%;
 }
 
-
 .heading:hover{
     text-shadow: 4px 4px 8px white;
     background-color:transparent;
@@ -32,6 +31,8 @@ body{
     margin-bottom: 6px;
     border: 2.25px solid black;
 }
+
+  
 
 
 
