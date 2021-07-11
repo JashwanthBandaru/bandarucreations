@@ -24,13 +24,13 @@ li:hover{
     letter-spacing: 1px;
     text-align: center;
     color:black;
-    background-color: white;
+    background-color: rgba(255,255,255,0.9);
     width:100%;
 }
 
 .heading:hover{
-    text-shadow: 4px 4px 8px white;
-    background-color:transparent;
+    text-shadow: 1px 1px 1px black;
+    background-color:rgba(255,255,255,0.9);
     
 }
 
@@ -52,7 +52,6 @@ li:hover{
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
-
 }
 
 .navbar-nav {
@@ -60,8 +59,33 @@ li:hover{
     font-weight: 400;
     letter-spacing: 3px;
     text-align: center;
-    
 }
+/* .box {
+    margin-bottom: 20px;
+    padding: 30px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+} */
+/* .custom-carousel {
+    max-width:100%;
+    width:100%;
+} */
+  
+.box{
+    box-shadow: 0 0 255px #000000;
+}
+
+footer {
+    background: rgba(255,255,255,0.9);
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+
+}
+
 
 @media screen and (max-width:768px) {
 
@@ -77,11 +101,4 @@ li:hover{
     }
 }
 
-footer {
-    background: rgba(255,255,255,0.9);
-}
 
-footer p {
-    margin: 0;
-    padding: 50px 0;
-}
