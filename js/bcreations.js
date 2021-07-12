@@ -1,3 +1,13 @@
+var myVar;
+
+function myloadFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
 
 function thumbnail(sampleUrl,content_id){
     var sampleUrl;
@@ -8,8 +18,4 @@ function thumbnail(sampleUrl,content_id){
     document.getElementById(content_id).innerHTML = '<img src=' + image_link + ' width="100%" class="d-block w-100 h-100" />';
 }
 
-// carousel Images
-thumbnail("https://www.youtube.com/watch?v=lSbYYC4ajQ8","car_pic1");
-thumbnail("https://www.youtube.com/watch?v=6fbJEzC59KI","car_pic2");
-thumbnail("https://www.youtube.com/watch?v=EROqklI89cE","car_pic3");
 
