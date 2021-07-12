@@ -6,16 +6,15 @@
     width: 50px;
     height: 50px;
     margin: -76px 0 0 -76px;
-    border: 8px solid white;
+    border: 8px solid transparent;
     border-radius: 50%;
-    /* border-top: 16px solid #3498db; */
-    border-top: 8px solid rgb(0, 68, 255);
-    border-bottom: 8px solid rgb(0, 68, 255);
+    border-top: 8px solid white;
+    border-bottom: 8px solid white;
     /* border-bottom: 16px solid red;
     border-left: 16px solid yellow; */
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
-    box-shadow: 10px 10px 50px white;
+    /* box-shadow: 10px 10px 50px white; */
 }
 
 /* @-webkit-keyframes spin {
@@ -52,8 +51,8 @@ to { bottom:0px; opacity:1 }
     text-align: center;
 }
 
-
 body{
+    overflow-x: hidden;
     background: url(../images/b_ground.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -73,7 +72,7 @@ li:hover{
 
 .heading{
     text-transform: uppercase;
-    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 10mm;
     letter-spacing: 1px;
     text-align: center;
@@ -85,7 +84,7 @@ li:hover{
 .heading:hover{
     text-shadow: 1px 1px 1px black;
     background-color:rgba(255,255,255,0.9);
-    
+
 }
 
 .logoimage{
@@ -100,8 +99,6 @@ li:hover{
     height: 10mm;
     background-color: transparent;
 }
-
-
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
@@ -114,19 +111,30 @@ li:hover{
     letter-spacing: 3px;
     text-align: center;
 }
-/* .box {
-    margin-bottom: 20px;
-    padding: 30px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
-} */
-/* .custom-carousel {
-    max-width:100%;
-    width:100%;
-} */
-
 .box{
     box-shadow: 0 0 255px #000000;
+}
+
+.playlists{
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.playlist_head{
+    font-size:xx-large;
+    padding: 5px;
+    margin: 5px;
+}
+
+.videos{
+    border: 2px solid rgb(24, 240, 255);
+}
+
+.videos:hover{
+    /* box-shadow: 0 0 20px black; */
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3);
 }
 
 footer {
