@@ -24,7 +24,7 @@ thumbnail("https://www.youtube.com/watch?v=qEBjkhxh5DU","sc_2");
 thumbnail("https://www.youtube.com/watch?v=qEBjkhxh5DU","sc_3");
 thumbnail("https://www.youtube.com/watch?v=qEBjkhxh5DU","sc_4");
 
-// Greeting abd Gift Cards Links
+// Greeting and Gift Cards Links
 thumbnail("https://www.youtube.com/watch?v=qEBjkhxh5DU","gc_1");
 thumbnail("https://www.youtube.com/watch?v=qEBjkhxh5DU","gc_2");
 thumbnail("https://www.youtube.com/watch?v=qEBjkhxh5DU","gc_3");
