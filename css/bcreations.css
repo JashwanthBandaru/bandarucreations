@@ -207,9 +207,6 @@ footer p {
 }
 
 @media screen and (max-width:320px) {
-    .body{
-        overflow-x: hidden;
-    }
     .heading{
 
         text-transform: uppercase;
