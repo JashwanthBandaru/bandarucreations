@@ -198,7 +198,7 @@ footer p {
     padding: 50px 0;
 
 } 
-@media  screen and (min-width: 320px) {
+@media  screen and (min-width: 420px) {
     .gform{
         height: 1305px;
         width: 640px;
@@ -206,7 +206,7 @@ footer p {
     
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:420px) {
     .heading{
 
         text-transform: uppercase;
