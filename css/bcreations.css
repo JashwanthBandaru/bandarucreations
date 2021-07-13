@@ -116,20 +116,20 @@ li:hover{
 }
 
 .playlists{
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,1);
     width: 100%;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;  
 }
 
 .playlist_head{
-    font-size:xx-large;
+    font-size: xx-large;
     padding: 5px;
     margin: 5px;
 }
 
 .videos{
-    border: 2px solid rgb(24, 240, 255);
+    border: 2px solid rgb(122, 251, 255);
 }
 
 .videos:hover{
@@ -137,6 +137,23 @@ li:hover{
     box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3);
 }
 
+.connections{
+    background-color: rgba(255,255,255,0.9);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+.secondary_sm{
+    height: 50px;
+}
 footer {
     background: rgba(255,255,255,0.9);
     position: relative;
@@ -146,7 +163,7 @@ footer p {
     margin: 0;
     padding: 50px 0;
 
-}
+} 
 
 
 @media screen and (max-width:768px) {
