@@ -218,6 +218,15 @@ footer p {
         background-color: white;
         width:100%;
     }
+    .bg_form{
+        background-color: #f1c8ff;
+        /* opacity: 0.9; */
+        /* margin-left: 15%;
+        margin-right: 15%; */
+        width:100%;
+        margin-bottom: 2%;
+        box-shadow: 0 0 15px black;
+    }
     #loader{
         display: none;
     }
