@@ -162,7 +162,7 @@ hr {
 
 .textbox{
     /* background-color: rgba(255,255,255,0.9); */
-    background-image: url(../images/text_bg2.jpg);
+    background-image: url(../images/text_bg2.jpg) repeat;
     opacity: 1;
     font-family: 'Montserrat', sans-serif;
     font-size:large;
