@@ -162,7 +162,7 @@ hr {
 
 .textbox{
     /* background-color: rgba(255,255,255,0.9); */
-    background-image: url(../images/text_bg2.jpg) repeat;
+    background-image: url(../images/text_bg2.jpg) ;
     opacity: 1;
     font-family: 'Montserrat', sans-serif;
     font-size:large;
@@ -207,17 +207,6 @@ footer p {
 }
 
 @media screen and (max-width:768px) {
-    .heading{
-
-        text-transform: uppercase;
-        font-family: "Montserrat",Helvetica,Arial,sans-serif;
-        font-size: 8mm;
-        letter-spacing: 1px;
-        text-align: center;
-        color:black;
-        background-color: white;
-        width:100%;
-    }
     .bg_form{
         background-color: #f1c8ff;
         /* opacity: 0.9; */
