@@ -140,6 +140,10 @@ li:hover{
 .connections{
     background-color: rgba(255,255,255,0.9);
 }
+
+.sm:hover{
+    box-shadow: 0 0 10px 4px black;
+}
 .center {
     display: block;
     margin-left: auto;
@@ -154,6 +158,24 @@ hr {
 .secondary_sm{
     height: 50px;
 }
+
+.textbox{
+    /* background-color: rgba(255,255,255,0.9); */
+    background-image: url(../images/text_bg2.jpg);
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size:large;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.textbox>a{
+    color:rgba(0, 0, 255)
+}
+
 footer {
     background: rgba(255,255,255,0.9);
     position: relative;
@@ -180,6 +202,9 @@ footer p {
     }
     #loader{
         display: none;
+    }
+    .sec_div{
+        height: 60px;
     }
 }
 
