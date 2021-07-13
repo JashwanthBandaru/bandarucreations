@@ -207,8 +207,11 @@ footer p {
 }
 
 @media screen and (max-width:320px) {
-
+    .body{
+        overflow-x: hidden;
+    }
     .heading{
+
         text-transform: uppercase;
         font-family: "Montserrat",Helvetica,Arial,sans-serif;
         font-size: 8mm;
