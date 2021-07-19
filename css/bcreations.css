@@ -12,8 +12,8 @@
     border-bottom: 8px solid white;
     /* border-bottom: 16px solid red;
     border-left: 16px solid yellow; */
-    -webkit-animation: spin 1.5s linear infinite;
-    animation: spin 1.5s linear infinite;
+    -webkit-animation: spin 1.25s linear infinite;
+    animation: spin 1.25s linear infinite;
     /* box-shadow: 10px 10px 50px white; */
 }
 
