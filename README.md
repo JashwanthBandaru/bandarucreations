@@ -1,6 +1,4 @@
-**Website Links:**
-
-http://bandarucreations.in
+**Website Link:**
 
 https://jashwanthbandaru.github.io/bandarucreations/index.html
 
