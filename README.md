@@ -1,6 +1,6 @@
 **Website Link:**
 
-https://jashwanthbandaru.github.io/bandarucreations/index.html
+https://jashwanthbandaru.github.io/bandarucreations/
 
 Simple website for Bandaru Creations Youtube channel
 
